@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url(https://fonts.google.com/specimen/Open+Sans?query=open+sans#about);
+}
+body { 
+     background-image: url('/Users/emilylira/Desktop/GitHub/cross-course-project-Emilyrf/images/eating popcorn.jpeg');
+
+}
+p {
+    font-family: "Open Sans", Montserrat;
+    color: #BF2A70; 
+}

@@ -4,4 +4,22 @@
 }
 body {
     font-family: "Open Sans", Montserrat;
+    color: #BF2A70; 
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: #BF2A70;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #182026;
 }
