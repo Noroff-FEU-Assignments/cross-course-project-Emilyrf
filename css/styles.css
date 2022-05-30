@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url(https://fonts.google.com/specimen/Open+Sans?query=open+sans#about);
+}
+body {
+    font-family: "Open Sans", Montserrat;
+}
