@@ -1,25 +1,57 @@
-@font-face {
-    font-family: "Open Sans";
-    src: url(https://fonts.google.com/specimen/Open+Sans?query=open+sans#about);
-}
-body {
-    font-family: "Open Sans", Montserrat;
-    color: #BF2A70; 
+
+body { font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 300; color: #BF2A70; ; }
+
+#page { max-width: 1200px; margin: 0 auto; position: relative;}
+
+
+/********header*******/
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2ABF95;
+  border-bottom: 5px solid #000;
+  padding: 10px,20px;       
 }
 
-nav li {
-    display: inline-block;
+img {  
+  width: 160px; height: 66px; padding: 10px; padding-left: 30px;}
+
+nav { text-align: right;}
+
+a { 
+  display: inline-flex;
+  align-items: center;
+  color: #BF2A70; 
+  text-decoration: none; font-size: 20px; 
+  margin-right: 30px;
+  padding-top: 30px;
+  transition: transform 100ms linear;
 }
 
-nav a {
-    color: #BF2A70;
-    text-decoration: none;
-}
+a:hover { 
+  transform: scale(1.09);}
 
-nav a:hover {
-    text-decoration: underline;
-}
+h1 {
+  padding-left: 30px;} 
 
-footer {
-    background-color: #182026;
+
+  /*****banner***/
+h2 { 
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 40px;
+  color: #000;
+  margin: 0; }
+
+
+.banner {
+  background-image: url(../images/bannerjpg.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 600px;
 }
+/*BUTTONSEARCh STYLE LATER****
+#btnsearch:hover {
+    background-color: #BF2A70;
+    color: #2ABF95;}
+******************************/    
