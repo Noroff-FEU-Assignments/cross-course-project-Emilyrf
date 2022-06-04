@@ -31,6 +31,7 @@ a {
   transition: transform 100ms linear;
 }
 
+
 a:hover { 
   transform: scale(1.09);}
 
@@ -114,12 +115,6 @@ header {
   width: 100%;     
 }
 
-img { 
-  display: flex;
-  align-content: center;
-}
-
-
 a {
   text-align: center;
   padding-top: 5px;
@@ -135,13 +130,9 @@ a {
   display: none;
 }
 
-
-
-/*********FILMSLIST*********/
-.cover {
-  height: 290px;
-  width:  185px;
+main {
+ margin-top: 120px;;
+ float: left;
 }
-
 
 }
