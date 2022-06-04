@@ -1,10 +1,17 @@
 
-body { font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 300; color: #BF2A70; ; }
+body { 
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 16px; font-weight: 300; 
+  color: #BF2A70;  
+}
 
-#page { max-width: 1200px; margin: 0 auto; position: relative;}
+#page { 
+  max-width: 1200px; 
+  margin: 0 auto; position: relative;
+}
 
 
-/********HEADER*******/
+/*************HEADER**************/
 header {
   display: flex;
   justify-content: space-between;
@@ -17,7 +24,9 @@ header {
 }
 
 img {  
-  width: 160px; height: 66px; padding: 10px; padding-left: 30px;}
+  width: 160px; height: 66px; 
+  padding: 10px; padding-left: 30px;
+}
 
 nav { text-align: right;}
 
@@ -31,7 +40,6 @@ a {
   transition: transform 100ms linear;
 }
 
-
 a:hover { 
   transform: scale(1.09);}
 
@@ -39,7 +47,7 @@ h1 {
   padding-left: 30px;} 
 
 
-/*****BANNER***/
+/***********BANNER******************/
 
 .banner {
   background-image: url(../images/bannerjpg.jpg);
@@ -68,8 +76,6 @@ h1 {
 .button:hover {
   background-color: #BF2A70; opacity: 100%;
 }
-
-
 
 
 /*********FILMSLIST*********/
@@ -102,7 +108,8 @@ p {
   margin-top: 3px;
 }
 
-/*******MEDIA QUERY********/
+/***********MEDIA QUERY**************/
+
 @media ( max-width: 520px)  {
   /********HEADER*******/
 header {
