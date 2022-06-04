@@ -4,13 +4,16 @@ body { font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 300; 
 #page { max-width: 1200px; margin: 0 auto; position: relative;}
 
 
-/********header*******/
+/********HEADER*******/
 header {
   display: flex;
   justify-content: space-between;
   background-color: #2ABF95;
   border-bottom: 5px solid #000;
-  padding: 10px,20px;       
+  padding: 10px,20px;
+  position: fixed;
+  top: 0;
+  width: 100%;       
 }
 
 img {  
@@ -35,23 +38,110 @@ h1 {
   padding-left: 30px;} 
 
 
-  /*****banner***/
-h2 { 
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 100;
-  font-size: 40px;
-  color: #000;
-  margin: 0; }
-
+/*****BANNER***/
 
 .banner {
   background-image: url(../images/bannerjpg.jpg);
-  background-size: 100%;
   background-repeat: no-repeat;
+  background-size:cover;
+  width: 100%;
   height: 600px;
+  border-bottom: 5px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+.button {
+  text-align: center; 
+  
+  border: 5px solid #2ABF95;
+  background-color: #fff; opacity: .3;
+  height: 20px;
+  padding: 10px;
+  line-height: 20px;
+  border-radius: 20px; 
+  color: #2ABF95;
 }
-/*BUTTONSEARCh STYLE LATER****
-#btnsearch:hover {
-    background-color: #BF2A70;
-    color: #2ABF95;}
-******************************/    
+
+.button:hover {
+  background-color: #BF2A70; opacity: 100%;
+}
+
+
+
+
+/*********FILMSLIST*********/
+.cover {
+  height: 290px;
+  width:  185px;
+}
+
+/***********FOOTER***********/
+
+footer{
+  background-color: #182026;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.contact-info a{
+margin: 0;
+padding-top: 5px;
+}
+
+.social-logos a {
+  font-size: 30px;
+  padding-top: 3px;
+  margin: 5px;
+}
+
+p {
+  margin-top: 3px;
+}
+
+/*******MEDIA QUERY********/
+@media ( max-width: 520px)  {
+  /********HEADER*******/
+header {
+  display: inline;
+  align-content: center;
+  border-bottom: 5px solid #000;
+  padding: 10px,20px;
+  position: fixed;
+  top: 0;
+  width: 100%;     
+}
+
+img { 
+  display: flex;
+  align-content: center;
+}
+
+
+a {
+  text-align: center;
+  padding-top: 5px;
+}
+
+/*****BANNER***/
+
+.banner { 
+  display: none;
+} 
+
+.button { 
+  display: none;
+}
+
+
+
+/*********FILMSLIST*********/
+.cover {
+  height: 290px;
+  width:  185px;
+}
+
+
+}

@@ -1,0 +1,87 @@
+
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          -
+          <li><a href="contact.html">Get in Contact</a></li>
+        </ul>
+        <ul>
+          <li><i class="fa-brands fa-facebook-f"></i></li>
+          <li><i class="fa-brands fa-instagram"></i></li>
+          <li><i class="fa-brands fa-twitter"></i></li>
+        </ul>
+
+        Copyright &copy; 
+    </footer>
+
+
+
+
+
+
+    .banner {
+      box-sizing:border-box;
+      background-image: url(../images/bannerjpg.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      height: 595px;
+      border-bottom: 5px solid #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+
+
+
+main.img {
+  display: inline-block;
+  width: 285pt;
+  height: 412pt;
+  background-color: #BF2A70;
+  padding: 500pt;
+
+}
+
+.films {
+  float: left;
+  width: 100%;
+}
+
+
+
+
+
+
+  <img class="cover" src="images/squareeyes1.png"
+    alt="Fast & Furious Presents: Hobbs & Shaw" href="#"
+  />
+
+  <img class="cover" src="images/squareeyes2.jpg"
+    alt="Godzilla: King of the Monsters" href="#"
+  />
+
+  <img class="cover" src="images/squareeyes3.jpg"
+    alt="Once Upon a Time… In Hollywood" href="#"
+  />
+
+  <imgclass="cover" src="images/squareeyes4.jpg"
+    alt="Scream" href="#"
+  />
+
+  <img class="cover" src="images/squareeyes5.jpg"
+    alt="Sweetheart" href="#"
+  />
+
+  <img class="cover" src="images/squareeyes6.jpg"
+    alt="Addams Family" href="#"
+  />
+
+  <img class="cover" src="images/squareeyes7.jpg"
+    alt="The Batman" href="#"
+  />
+
+  <img class="cover" src="images/squareeyes8.jpg"
+    alt="Toy Story 4" href="#"
+  />
