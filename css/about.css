@@ -2,11 +2,45 @@
     font-family: "Open Sans";
     src: url(https://fonts.google.com/specimen/Open+Sans?query=open+sans#about);
 }
-body { 
-     background-image: url('/Users/emilylira/Desktop/GitHub/cross-course-project-Emilyrf/images/eating popcorn.jpeg');
+
+#page { 
+    max-width: 1200px; 
+    margin: 0 auto; position: relative;
+}
+
+body {
+    background-image: url(../images/eating\ popcorn.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+p {
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 20px; font-weight: 400;
+    color: #BF2A70; 
+    padding: 40px;
+}
+
+#container {
+    background-color: #fff; opacity: .3;
+    width: 500px;
+    text-align: center;
+    margin-left: 0px;
+    position: absolute;
+    right: 20px;
 
 }
-p {
-    font-family: "Open Sans", Montserrat;
-    color: #BF2A70; 
+
+a { 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 30px; font-weight: 300; 
+    text-decoration: none;
+    color: #BF2A70;
+    padding: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }

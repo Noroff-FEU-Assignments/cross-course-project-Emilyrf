@@ -22,15 +22,19 @@ img {
   padding: 10px; padding-left: 30px;
 }
 
+li {
+  display: inline-flex;
+}
+
 a { 
   font-family: 'Open Sans', sans-serif; 
   font-size: 20px; font-weight: 300; 
   text-decoration: none;
   color: #BF2A70;
   margin: 30px;
-  display: inline-flex;
-  align-items: center;  
+
 }
+
 a:hover { 
   transform: scale(1.09);
 }
