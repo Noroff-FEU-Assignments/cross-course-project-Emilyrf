@@ -1,4 +1,7 @@
-
+*{
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
 /*************HEADER**************/
 img {  
   width: 160px; height: 66px; 
@@ -6,7 +9,6 @@ img {
 }
 
 .hamburger {
-  font-size: 20px; font-weight: 300; 
   color: #BF2A70;
   margin-right: 10px;
 
@@ -50,8 +52,8 @@ nav li {
 }
 
 a { 
-  font-family: 'Open Sans', sans-serif; 
-  font-size: 20px; font-weight: 300; 
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px; font-weight: 700;
   text-decoration: none;
   color: #BF2A70;
   margin: 30px;
@@ -76,7 +78,7 @@ a:hover {
 
 h2 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px; font-weight: 300;
+  font-size: 20px; font-weight: 700;
   color: #BF2A70;  
 
 }
@@ -114,6 +116,8 @@ footer{
 }
 
 .contact-info a{
+ font-family: 'Open Sans', sans-serif;
+ font-size: 20px; font-weight: 700; 
  margin: 0;
  padding-top: 5px;
 }
@@ -126,7 +130,7 @@ footer{
 
 p {
   font-family: 'Montserrat', sans-serif;
-  color: white;
+  color:#fff;
   margin-top: 3px;
 }
 
@@ -182,13 +186,13 @@ p {
 } 
 .button {
   display: block;
-  border: 5px solid #2ABF95;
   background-color: #fff; opacity: .3;
-  height: 20px;
-  padding: 10px;
-  line-height: 20px;
-  border-radius: 20px; 
+  text-decoration: none;
   color: #2ABF95;
+  border: 5px solid #2ABF95;
+  border-radius: 20px;
+  padding: 15px;
+  width: fit-content;  
 }
 .button:hover {
   background-color: #BF2A70; opacity: 100%;
