@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="Connecting Film Lovers" />
+    <meta name=" viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Shopping Cart</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;800&family=Open+Sans:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/7838f15d00.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/cart.css" rel="stylesheet" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon_io/site.webmanifest" />
+  </head>
+
+  <body>
+    <header>
+      <div class="menu">
+        <div class="logo">
+          <img src="images/SquareEyes_Logo.png" />
+        </div>
+        <nav class="menu-items">
+          <a href="index.html"><i class="fa-solid fa-house"></i></a>
+          <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="content">
+        <section class="cart">
+          <div class="product-description">
+            <h1>My Cart:</h1>
+            <ul class="details">
+              <img src="images/squareeyes7.jpg" alt="The Batman" />
+              <li class="prodname">The Batman 2022<br />#10007</li>
+              <li class="price">NOK 100,00</li>
+              <li class="fa-solid fa-trash-can"></li>
+            </ul>
+            <class id="total">
+              <span>Total:</span> <span>NOK 100,00</span>
+            </class>
+            <a href="index.html">Continue Shopping</a>
+          </div>
+
+          <div class="payment-form">
+            <h2>Payment Details:</h2>
+            <form method="POST" action="index.html">
+              <div class="form-100">
+                <label for="email">Email:</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email"
+                />
+              </div>
+
+              <div class="form-100">
+                <label for="card details">Card Details:</label>
+                <input
+                  style="margin-bottom: -1px"
+                  ;
+                  type="text"
+                  name="card number"
+                  id="card number"
+                  placeholder="1234 1234 1234 1234"
+                />
+                <div class="form-50">
+                  <input
+                    aria-label="expiration date"
+                    type="text"
+                    name="expiration date"
+                    id="expiration date"
+                    placeholder="MM/YY"
+                  />
+                  <input
+                    style="margin-left: -1px"
+                    ;
+                    aria-label="security code"
+                    type="text"
+                    name="Security code"
+                    id="Security code"
+                    placeholder="CVC"
+                  />
+                </div>
+              </div>
+
+              <div class="form-100">
+                <label for="name in the card">Name in the card:</label>
+                <input
+                  type="text"
+                  name="name in the card"
+                  id="name in the card"
+                  placeholder="Name in the card"
+                />
+              </div>
+              <div class="form-100">
+                <input type="submit" value="Pay" />
+              </div>
+            </form>
+            <p class="small">
+              <i class="fa-solid fa-lock"></i> All transactions are secure and
+              encrypted.
+            </p>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
