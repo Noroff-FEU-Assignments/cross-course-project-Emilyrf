@@ -3,3 +3,56 @@
     margin: 0;
     padding: 0;
   }
+
+  body {
+    font-family: 'Open Sans', sans-serif; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-image: url(../images/AdobeStock_291950881.jpeg)
+  }
+
+  #container {
+    justify-content: center;
+    background-color: rgba(0,0,0,.5);
+    text-align: center;
+    width: 500px;
+    position: absolute;        
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 40px;
+
+  }
+
+  h1{
+    font-weight: 800;
+    font-size: 70px;
+    padding-bottom: 10px;
+    align-self: center;
+    color: white;
+  } 
+  
+  p {
+    font-size: 40px;
+    font-weight: 400;
+    color: white; 
+    padding-bottom: 50px;
+  }
+
+  a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: #2ABF95;
+    border: 5px solid #2ABF95;
+    border-radius: 20px;
+    padding: 15px;
+    width: fit-content;   
+  }
+  a:hover{
+    border: 5px solid #BF2A70;
+    color: #BF2A70;  
+  }

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="Connecting Film Lovers" />
+    <meta name=" viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Checkout</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;800&family=Open+Sans:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/7838f15d00.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/checkout.css" rel="stylesheet" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon_io/site.webmanifest" />
+  </head>
+
+  <body>
+    <header>
+      <div class="menu">
+        <div class="logo">
+          <img src="images/SquareEyes_Logo.png" />
+        </div>
+        <nav class="menu-items">
+          <a href="index.html"><i class="fa-solid fa-house"></i></a>
+          <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+          <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="payment-form">
+          <form action="checkoutsuccess.html" method="POST" id="payment-form">
+            <fieldset>
+              <legend>Payment Details:</legend>
+              <div class="form-100">
+                <label for="email">Email:</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email"
+                  required
+                  maxlength="50"
+                />
+              </div>
+
+              <div class="form-100">
+                <label for="fullName">Name:</label>
+                <input
+                  type="text"
+                  name="fullName"
+                  id="fullName"
+                  placeholder="Name in the card"
+                  required
+                  maxlength="45"
+                />
+              </div>
+
+              <div class="form-100">
+                <label for="cardnumber">Card Number:</label>
+                <input
+                  type="tel"
+                  inputmode="numeric"
+                  name="cardNumber"
+                  id="ccn"
+                  pattern="[0-9\s]{13,19}"
+                  autocomplete="cc-number"
+                  maxlength="19"
+                  placeholder="1234 1234 1234 1234"
+                  required
+                />
+              </div>
+
+              <div class="form-50">
+                <label for="expirationDate"
+                  >Expiration Date:
+                  <input
+                    type="text"
+                    name="expirationDate"
+                    id="expirationDate"
+                    placeholder="MM/YY"
+                    maxlength="5"
+                    required
+                  />
+                  <ul class="inputRequirements">
+                    * Month and year separeted by "/"
+                  </ul>
+                </label>
+              </div>
+
+              <div class="form-50">
+                <label for="cvv"
+                  >Security Code:
+                  <input
+                    type="text"
+                    name="cvv"
+                    id="cvv"
+                    placeholder="CVV "
+                    maxlength="3"
+                    required
+                  />
+                  <ul class="inputRequirements">
+                    * 3 digits in the back of the card
+                  </ul>
+                </label>
+              </div>
+
+              <a class="paybtn" href="checkoutsuccess.html">Complete Order</a>
+            </fieldset>
+          </form>
+
+          <p class="small">
+            <i class="fa-solid fa-lock"></i> All transactions are secure and
+            encrypted.
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

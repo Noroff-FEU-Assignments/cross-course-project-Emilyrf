@@ -49,17 +49,23 @@
 
         <div>
           <label for="fullname">Name:</label>
-          <input type="text" name="full_name" id="fullname" />
+          <input
+            type="text"
+            name="full_name"
+            id="fullname"
+            required
+            maxlength="45"
+          />
         </div>
 
         <div>
           <label for="email">Email:</label>
-          <input type="email" name="email" id="email" />
+          <input type="email" name="email" id="email" required maxlength="50" />
         </div>
 
         <div>
           <label for="message">Message:</label>
-          <textarea id="message" name="message"></textarea>
+          <textarea id="message" name="message" required></textarea>
         </div>
 
         <a class="send" href="contactsuccess.html" alt="send">SEND</a>
