@@ -32,9 +32,15 @@
   /*PAYMENTFORM*/
 
 
-  .payment-form input:valid{
-    border: 2px solid green;
-  }
+
+  input:not([type="submit"]):valid {
+    border-color: #3d9ca8;
+    box-shadow: 0 0 3px #3d9ca8;
+}
+input:not([type="submit"]):invalid {
+  border-color: #a73232;
+  box-shadow: 0 0 3px #a73232;
+}
 
   .form-100 {width: 100%; margin-bottom: 10px;}
   .form-50 {width:50%;display: block; margin-bottom: 10px;}
@@ -45,7 +51,7 @@
     font-weight: 800;
     color: #2ABF95;
     margin-bottom: 20px;
-}
+  }
 
 
   .payment-form {
